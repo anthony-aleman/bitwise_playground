@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+# 🧠 Bitwise Operation Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive bitwise operation visualizer built with **React**, **Vite**, and **TypeScript**.
 
-Currently, two official plugins are available:
+This lightweight web app allows users to input decimal values and visualize bitwise operations like `AND`, `OR`, and `XOR` with real-time binary output and clickable bit toggles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/5ff65714-de62-4a77-a44b-33c11e513f0d)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 🔢 **Decimal to Binary Sync** – Enter decimal values and instantly see the binary representation.
+- 🟢 **Bit Toggling** – Click on individual bits to flip them and update the decimal result.
+- 💻 **Live Bitwise Operations** – Choose from `AND`, `OR`, `XOR` and see the output instantly.
+- 🎨 **Dark Mode UI** – Clean, terminal-inspired styling with monospace fonts.
+- 📦 **Powered by Vite** – Super fast dev and build times.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🧰 Tech Stack
+
+- React (with hooks)
+- TypeScript
+- Vite
+- CSS (modern modular styling)
+- No external dependencies
+
+
+
+## 🛠️ Installation
+
+Clone and run locally:
+
+```bash
+git clone https://github.com/anthony-aleman/bitwise-playground.git
+cd bitwise-playground
+npm install
+npm run dev
