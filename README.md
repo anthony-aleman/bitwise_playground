@@ -1,4 +1,4 @@
-# 🧠 Bitwise Operation Playground
+# Bitwise Operation Playground
 
 A modern, interactive bitwise operation visualizer built with **React**, **Vite**, and **TypeScript**.
 
@@ -14,19 +14,16 @@ This lightweight web app allows users to input decimal values and visualize bitw
 - 🔢 **Decimal to Binary Sync** – Enter decimal values and instantly see the binary representation.
 - 🟢 **Bit Toggling** – Click on individual bits to flip them and update the decimal result.
 - 💻 **Live Bitwise Operations** – Choose from `AND`, `OR`, `XOR` and see the output instantly.
-- 🎨 **Dark Mode UI** – Clean, terminal-inspired styling with monospace fonts.
 - 📦 **Powered by Vite** – Super fast dev and build times.
 
 ---
 
 ## 🧰 Tech Stack
 
-- React (with hooks)
+- React
 - TypeScript
 - Vite
 - CSS (modern modular styling)
-- No external dependencies
-
 
 
 ## 🛠️ Installation
