@@ -1,0 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bit-output {
+  color: #00ff99;
+  font-family: 'Fira Code', monospace;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+
+}

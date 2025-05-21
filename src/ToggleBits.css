@@ -1,0 +1,44 @@
+.toggle-bits-container {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.bit-label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #ccc;
+}
+
+.bit-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bit-button {
+    width: 40px;
+    height: 40px;
+  margin: 4px;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: #eee;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.bit-button.on {
+  background-color: #0f0;
+  color: black;
+}
+
+.bit-button.off {
+  background-color: #da3434;
+  color: #f0ecec;
+}
+
+.bit-button:hover {
+  background-color: #444;
+}
